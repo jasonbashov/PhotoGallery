@@ -52,7 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GenericRepository.cs" />
+    <Compile Include="IPhotoGalleryData.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="PhotoGalleryData.cs" />
     <Compile Include="PhotoGalleryDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
