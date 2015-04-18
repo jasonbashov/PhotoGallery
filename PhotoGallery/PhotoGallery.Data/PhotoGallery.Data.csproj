@@ -52,9 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFirstConventions\UnicodeAttributeConvention.cs" />
+    <Compile Include="DataAnnotations\IsUnicodeAttribute.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="IPhotoGalleryData.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PhotoGalleryData.cs" />
     <Compile Include="PhotoGalleryDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
